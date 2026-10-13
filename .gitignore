@@ -1,0 +1,13 @@
+# Dependencias
+node_modules/
+/backend/vendor/bundle
+
+# Archivos locales y secretos
+.env
+*.log
+/backend/log/*
+/backend/tmp/*
+/backend/config/master.key
+
+# Sistema
+.DS_Store
